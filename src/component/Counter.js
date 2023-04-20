@@ -41,7 +41,7 @@ function Counter() {
 
   const count = useSelector(state => state.count);
   return (
-    <div className="text-center mt-5 border w-25 p-3  mx-auto shadow-lg p-3 mb-5 bg-white rounded">
+    <div className="text-center mt-5 border w-50 p-3  mx-auto shadow-lg p-3 mb-5 bg-white rounded">
       <h1>Counter App</h1>
       <h3>
         Count: {count}
